@@ -35,6 +35,24 @@ const App = () => {
       </main>
     );
   }
+  if (tours.length === 0) {
+    return (
+      <main>
+        <div className='title'>
+          <h2>no tours left</h2>
+          <button
+            type='button'
+            className='btn'
+            onClick={() => {
+              fetchData();
+            }}
+          >
+            reset
+          </button>
+        </div>
+      </main>
+    );
+  }
 
   return (
     <main>

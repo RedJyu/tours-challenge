@@ -18,7 +18,7 @@ function Tour({ id, image, info, name, price, removeTours }) {
               setReadMore(!readMore);
             }}
           >
-            read more
+            {readMore ? 'read less' : 'read more'}
           </button>
         </p>
 
