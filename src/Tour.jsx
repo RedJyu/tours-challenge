@@ -1,4 +1,4 @@
 function Tour() {
-  return <div>Tour</div>;
+  return <div>Tour Test</div>;
 }
 export default Tour;
